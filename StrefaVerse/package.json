@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap-icons": "^1.10.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "sg-www",
+  "version": "1.0.0",
+  "description": "Strona WWW sieci Strefa Gier",
+  "main": "index.js",
+  "repository": "https://github.com/alexx1513/sg-www",
+  "author": "Aleksander Antończak & Mateusz Aftanas",
+  "license": "MIT",
+  "private": true
+}

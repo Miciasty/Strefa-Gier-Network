@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+    background: #020617;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+  }
+
+a {
+    text-decoration: 0;
+    color: white;
+}
+footer a {
+    text-decoration: 0;
+    color: #9ca3af;
+}
+
+
+.advice {
+
+    background: #6f42c1;
+    color: #eee;
+
+    text-align: center;
+}
+.new {
+    width: fit-content;
+    padding: 2px 8px;
+
+    font-size: 10px;
+    font-weight: 900;
+
+    border: 1px solid #7131e7;
+    border-radius: 10px;
+
+    color: #7131e7;
+
+    background: #EEE;
+}
+
+.nav_item {
+    border-bottom: 2px solid #7131e700;
+    transition: .2s;
+
+    padding: 5px 10px;
+}
+.font-mont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gallery {
+    background: linear-gradient(45deg, transparent 49%, #1e293b 49% 51%, transparent 51%) , linear-gradient(-45deg, transparent 49%, #1e293b 49% 51%, transparent 51%);
+    background-size: 3em 3em;
+    background-color: #0f172a;
+    opacity: 1;
+}
+
+.transit {
+    transition: .2s;
+}
+.transit:hover {
+    transition: .2s;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.top-0-0 {
+    top: 0;
+}
+
+.left-0-0 {
+    left: 0;
+}
+.pad-0 {
+    padding: 0;
+}
+.pad-2 {
+    padding: 0.5rem;
+}
+.pad-5 {
+    padding: 1.5rem;
+}
